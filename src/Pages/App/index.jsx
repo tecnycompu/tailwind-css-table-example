@@ -1,5 +1,9 @@
+import { useRoutes} from 'react-router-dom';
+import Home from '../Home';
+import Developers from '../Developers';
+import Tutoriales from '../Tutorials';
+
 import './App.css'
-import Table from './Components/Table.jsx';
 
 function App() {
 
