@@ -4,6 +4,8 @@ const Table = () => {
   const data = [
     { name: 'Brais Moure', country: 'Spain', bio: 'Spanish Developer' },
     { name: 'Diego De Granda', country: 'Mexico', bio: 'Director of Software Engineering at Platzi ' },
+    { name: 'Javier Moràn', country: 'Colombia', bio: 'Dev. FullStack JavaScript ' },
+    { name: 'Carlos Ariza', country: 'Ecuador', bio: 'Dev. Phyton ' },
 
   ];
 
@@ -11,7 +13,7 @@ const Table = () => {
     <table className="table-auto w-full">
       <thead>
         <tr>
-          <th className="bg-violet-200 px-4 py-2">Name</th>
+          <th className="bg-blue-200 px-4 py-2">Name</th>
           <th className="px-4 py-2">Country</th>
           <th className="px-4 py-2">Bio</th>
         </tr>
