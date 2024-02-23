@@ -1,6 +1,11 @@
-export default function Tutoriales(){
+export default function Tutorials(){
     return(
-        <h1 className = "font-bold underline"> Youtube de Tutorials Playlist</h1>
+        <h1 className = "font-bold underline"> YouTube Tutorials Playlist</h1>
     )
-
 }
+
+/* Categorias
+- CSS --> Playlist URL
+- React --> Playlist URL
+- jfieorg --> Playlist URL
+*/
